@@ -1,0 +1,242 @@
+.landing {
+    height: 100vh;
+    background-image: url(../../img/shared-hosting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: white;
+}
+.landing::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #0D034A, rgba(25, 52, 167, 0.5));
+    z-index: -1;
+}
+.landing .landText h1{
+      font-weight: 700;  
+      font-size: 32px;
+}
+.landing .landText .share{
+    width: 80%;
+}
+.landing .landText p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.landing .landText .btn{
+    padding: 16px 32px;
+    border-radius: 16px;
+    line-height: 28px;
+    color: #000000;
+    background: linear-gradient(to bottom, #fbd901 0, #fbb801 90%);
+    font-weight: 500;
+    font-size: 19px;
+    margin: 10px 54px;
+    border: none;
+}
+.landing .landText .btn2{
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    margin: 10px 0px;
+}
+.landing .card2 .cardImg{
+    font-size: 12px;
+}
+.landing .cardbanner .cardImg{
+    width: 108px;
+    margin: auto;
+}
+.landing .cardbanner .bannerText h2{
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.landing .cardbanner .bannerText h2 .currency {
+    font-size: 60px;
+    line-height: 1;
+    vertical-align: middle;
+    margin-top: -60px;
+    font-weight: 800;
+    display: inline-block;
+}
+.landing .cardbanner .bannerText h2 .decimal {
+    font-size: 60px;
+    line-height: 1;
+    vertical-align: super;
+    display: inline;
+}
+.landing .cardbanner .bannerText h2 .month {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    margin-left: -80px;
+    display: inline;
+    font-weight: 400;
+}
+.landing .cardbanner{
+    max-width: 300px;
+    width: auto;
+    border-radius: 1rem;
+    padding: 15px;
+    background: rgba(26, 42, 112, 0.65);
+}
+.landing .cardbanner .bannerText2 p{
+    color: #524972;
+}
+.landing .cardbanner .bannerText2 .get{
+    background-color: #0c034ad8;
+    color: #fcfbff;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0px auto;
+    transition: .2s;
+    font-size: 15px;
+}
+/* landing sec end */
+
+
+
+
+/* details sec start */
+.landText2{
+    position: relative;
+}
+.details{
+   position: absolute;
+   bottom: -230px;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   /* margin-top: -90px; */
+   padding-bottom: 80px;
+}
+.details .cardDetails {
+    padding: 32px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 32px 0px, rgba(0, 0, 0, 0.06) 0px 24px 64px 0px;
+}
+.details .cardDetails {
+    color: #0D034A;
+}
+.details .cardDetails h3{
+    font-weight: 700;
+    font-size: 44px;
+    margin-inline-start: 10px;
+    margin-block: 10px;
+}
+.details .cardDetails p{
+    color: #606782;
+    font-size: 17px;
+}
+.details .cardDetails svg path{
+    stroke: rgb(107, 77, 196);
+}
+
+
+/* choose sec start */
+.choose{
+    margin-top: 270px;
+}
+.choose .chooseText{
+    padding: 40px 0;
+}
+.choose .chooseText h4{
+    font-size: 48px;
+    font-weight: 700;
+    color: #2D3C58;
+    margin: 10px 0;
+}
+.choose .chooseText p{
+    color: #4C5671;
+}
+.choose .cardHost {
+    padding: 20px;
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 32px 0px, rgba(0, 0, 0, 0.06) 0px 24px 64px 0px;
+}
+.choose .cardHost .host1 p{
+    font-weight: 600;
+    color: #2b1f51;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.choose .cardHost .host1 h5{
+    color: #2b1f51;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.choose .cardHost .host1 h5 span{
+    font-weight: 500;
+        font-size: 20px;
+}
+.choose .cardHost .host1 .number {
+    font-weight: 300;
+}
+.choose .cardHost .host1 .now{
+    background-color: #fee9df;
+    padding: 7px;
+    border-radius: 4px;
+    color: #f67a3c;
+    text-transform: capitalize;
+}
+.choose .cardHost .host1 .btn{
+    display: block;
+    color: #fff;
+    margin: 20px 0;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0c034ad8;
+    text-transform: capitalize;
+}
+.choose .cardHost .host2{
+    margin-top: 30px;
+}
+.choose .cardHost .host2 p{
+    margin: 20px 0;
+}
+.choose .cardHost .host2 img {
+    width: 92px;
+    display: inline-block;
+}
+.choose .cardHost .host3{
+    padding-top: 15px;
+    border-top: 1px solid rgba(221, 221, 221, 0.69);
+}
+.choose .lastText h5 {
+    padding: 40px 0;
+    font-size: 36px;
+    color: rgb(13, 3, 74);
+    font-weight: 700;
+}
+.choose .pay{
+    border: 1px solid #eee;
+    width:100%;
+    margin: 20px auto;
+    border-radius: 17px;
+    background-color: white;
+    padding: 10px 0px;
+}
+.choose .payText h5{
+    color: rgb(13, 3, 74);
+    font-size: 24px;
+}
